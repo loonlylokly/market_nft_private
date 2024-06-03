@@ -11,9 +11,9 @@ export const ChangeLocale = () => (
     </Select.Trigger>
     <Select.Portal>
       <Select.Content className="SelectContent">
-        <Select.ScrollUpButton className="SelectScrollButton">
+        {/* <Select.ScrollUpButton className="SelectScrollButton">
           <ChevronUpIcon />
-        </Select.ScrollUpButton>
+        </Select.ScrollUpButton> */}
         <Select.Viewport className="SelectViewport">
           <Select.Group>
             <Select.Label className="SelectLabel">Fruits</Select.Label>
