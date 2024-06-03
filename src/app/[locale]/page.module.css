@@ -1,0 +1,33 @@
+.content > *:where(:not(:first-of-type)) {
+  margin-top: var(--mg-content-top, 8rem);
+  /* display: grid;
+  row-gap: var(--gap-content, 8rem); */
+}
+
+.howitworks {
+  margin-top: 3.8rem;
+}
+
+.highlight {
+  margin-top: 6rem;
+}
+
+@media (min-width: 834px) {
+  .trends {
+    margin-top: 12rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .trends {
+    margin-top: 16rem;
+  }
+
+  .howitworks {
+    margin-top: 8rem;
+  }
+
+  .subscribe {
+    margin-top: 11rem;
+  }
+}
